@@ -1,6 +1,6 @@
 # Learning markdown
 
-This is the beginning of my markdown tutorial
+This is the beginning of a markdown guide
 
 # Heading 1
 
@@ -14,19 +14,24 @@ This is the beginning of my markdown tutorial
 
 ###### Heading 6
 
+
+> **NB: WHERE THERE ARE TWO OPTIONS, THE FIRST IS THE DEFAULT FORMAT**
+
+
 <!--italics-->
 
 _This text_ is italicised
 
+
 <!--double space to render new line-->
 
-_This text_ is italicised
+*This text* is italicised
 
 <!--strong-->
 
 **This text** is strong
 
-**This text** is strong
+__This text__ is strong
 
 <!--strikethrough-->
 
@@ -34,13 +39,13 @@ _This text_ is italicised
 
 <!--horizontal rule-->
 
----
+--- 
 
----
+___
 
 <!--to escape a special character, put a backslash in front-->
 
-\*This text\* is italicised
+\*This text\* is not italicised
 
 <!--blockquote-->
 
@@ -62,12 +67,20 @@ _This text_ is italicised
   - Nested item 1
   - Nested item 2
   - Nested item 3
+  <br>
+  <br>
+* item 1
+* item 2
+* item 3
+  * Nested item 1
+  * Nested item 2
+  * Nested item 3
 
 <!--OL-->
 
 1. item 4
-1. item 5
-1. item 6
+7. item 5
+3. item 6
 
 <!--inline code block-->
 
